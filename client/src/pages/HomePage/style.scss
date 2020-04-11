@@ -1,0 +1,34 @@
+.HomePage {
+  padding: 20px 20px;
+
+  > .title {
+    padding: 10px;
+    > .inline {
+      display: inline;
+    }
+    > .link {
+      text-decoration: underline;
+    }
+  }
+
+  > .pageBody {
+    > .pageSection {
+      margin-top: 50px;
+      > .radioList {
+        > .link {
+          margin-top: 30px;
+          margin-bottom: 30px;
+          text-decoration: underline;
+        }
+
+        .radio-list__label {
+          border-top: 1px solid #ddd;
+          padding: 25px;
+          display: block;
+        }
+        .radio-list__radio {
+        }
+      }
+    }
+  }
+}

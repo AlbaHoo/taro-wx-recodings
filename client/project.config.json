@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./dist",
+  "cloudfunctionRoot": "./dist/cloudfunctions/",
+  "projectname": "tenty-wechat-taro",
+  "description": "tenty",
+  "appid": "wx9f1cd455d4c787cf",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true
+  },
+  "compileType": "miniprogram"
+}

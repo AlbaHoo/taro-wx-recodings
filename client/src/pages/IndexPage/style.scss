@@ -1,0 +1,25 @@
+.IndexPage {
+  padding: 15px;
+  > .deviceList {
+    > .device {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 15px;
+      border: 1px solid black;
+      border-radius: 5px;
+      text-align: left;
+
+      > .mac {
+      }
+
+      > .ip {
+      }
+
+      > .viewButton {
+        text-align: left;
+        height: 80px;
+        width: 200px;
+      }
+    }
+  }
+}
